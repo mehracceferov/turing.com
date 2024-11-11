@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0; 
+}
+header{
+    display: flex;
+}
+.logo img{
+    height: 70px;
+    width: 140px;
+}
+.logo button{
+    height: 40px;
+}
+.logo ul{
+    list-style-type: none;
+}
+.logo ul a{
+    text-decoration: none;
+}
+.logo li{
+    border:1px solid;
+    margin-left: 20px;
+}
+.logo i{
+    border:1px solid;
+    margin-top: 20px;
+}
+
+
+    

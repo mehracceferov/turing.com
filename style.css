@@ -1,0 +1,330 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    margin:0px;
+    top: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.login ul{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;   
+}
+.navbar ul,.login ul{
+    display: flex;
+    list-style-type: none;
+    gap:20px
+}
+.navbar ul a,.login ul a{
+    text-decoration: none;
+    color:#000;
+    
+}
+.login button{
+  padding:10px 20px 10px 20px;
+  border-radius: 12px;
+  background-color: blue;
+  color:#FFF
+  }
+.main button{
+   padding:10px 20px 10px 20px;
+   border-radius:12px;
+   background-color: blue;
+   color:#fff;
+}
+.main{
+    position: relative;
+}
+.maincontent{
+    position: absolute;
+    width:700px;
+    top: 20px;
+}
+.mainimg img{
+    width:100%;
+    height: 600px;
+    object-fit: cover;
+}
+.section {
+
+}
+.poster{
+    text-align: center;
+    width: 600px;
+    margin-left:450px;
+    margin-top:20px;
+}
+.poster p{
+    font-size: 1.5em;
+    color:#ccc;
+}
+.cumle{
+    color:#000;
+    font-weight: 700;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1 h3{
+    font-size: 56px;
+    font-weight: 500;
+}
+.section1{
+    text-align: center;
+    width:600px;
+}
+.section1 p{
+    font-size: 20px;
+    color:#ccc;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    gap:130px;
+    
+}
+.p1 h1,.p2 h1{
+    font-size: 76px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.p1 p,.p2 p{
+    font-size: 25px;
+    color:#333;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid;
+    width: 1000px;
+}
+.section3cart{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border:1px solid;
+}
+.ilkin{
+    border: 1px solid;
+    padding:10px;
+    background-color: aliceblue;
+    width:200px;
+}
+
+.ilkin img{
+    width:100px;
+}
+.section3content h1{
+    width: 550px;
+}
+.section4{
+    width: 500px;
+    
+
+}
+.section5 button{
+  border-radius: 12px;
+  height: 40px;
+  width: 100px;
+  background-color: #000;
+  color: white;
+}
+.section5 h1,p{
+    width: 400px;
+}
+.left h3{
+    color:#878787;
+}
+.rigthimg img{
+    width: 500px;
+    
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+.section-bar{
+    display: flex;
+    justify-content: space-around;
+    margin-top:60px
+    
+}
+.rigthcontent h2{
+  color:#666646;
+  width: 550px;
+}
+.rigthcontent span{
+    border:1px solid;
+    border-radius: 12px;
+    background-color: #040B17;
+    color:#55A5EF;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    
+}
+.rigthcontent button{
+    margin-left: 500px;
+}
+.rigthcontent{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius:12px;
+    margin-top:30px;
+    padding: 10px; 
+}
+.all_carts{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+
+}
+.cart{
+    border-radius: 12px;
+    width: 500px;
+    height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+}
+.age{
+    margin-top: 50px;
+    
+}
+.scan button{
+    background-color: #0F0F0F;
+    width: 200px;
+    height: 60px;
+    color:white;
+    border-radius: 12px;
+}
+.scan h3{
+    padding: 10px 10px 40px 600px;
+    width: 500px;
+    
+}
+.forst h1{
+width: 500px;
+position: relative;
+}
+.scan button{
+    margin-left: 600px;
+    bottom: 30px;
+}
+.vidio img{
+
+    
+}
+.vero i{
+    margin-left: 90%;
+    width: 100px; 
+
+}
+.Discover{
+    border:1px solid;
+    border-radius: 12px;
+    background-color: #072983;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.want{
+    border: 1px solid;
+    background-color: #101010;
+    color:white
+}
+.want button{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background-color:#2E6EDF ;
+}
+.Discover button{
+    width: 150px;
+    height: 50px;
+    border-radius:12px;
+}
+.Discover img{
+    height: 700px;
+    width: 400px;
+    object-fit: cover;
+    
+}
+.vidio iframe{
+    width: 100%;
+    height: 500px;
+  
+}
+.vidio{
+    position: relative;
+    left: 130px;
+    top:20px;
+    width: 80%;
+ 
+}
+.carts{
+    margin-top: 50px;
+    display: flex;
+    gap:30px;
+    position: relative;
+}
+.carts-title{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.carts-scroll{
+    margin-top: 90px;
+    border-radius: 12px;
+    width: 400px;
+
+}
+.cart-img img{
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    object-fit: cover;
+}
+.cart-img img:hover{
+    height: 150px;
+}
+ li{
+text-decoration: none;
+list-style-type:none;
+}
+.gv{
+    display: flex;
+}
+.mt{
+    display: flex;
+}
+.MN{
+    display: flex;
+}
+.gm{
+    display: flex;
+}
+.fm{
+    display: flex;
+}
+.tm{
+    display: flex;
+}

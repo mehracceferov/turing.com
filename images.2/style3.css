@@ -1,0 +1,16 @@
+.carts{
+    border:1px solid;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.cart{
+    width: 200px;
+    height: 100px;
+    border:1px solid;
+}
+@media (max-width:500px){
+    .carts{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
